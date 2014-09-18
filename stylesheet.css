@@ -1,0 +1,61 @@
+.container{
+	margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  	font-size: 20px;
+  	font-family: 'Montserrat', sans-serif;
+  	background-color: red;
+}
+div{
+	margin: 5px;
+}
+.seat_1{
+	margin: 0% auto auto 10%;
+    width: 1em;
+    text-align: right;   
+}
+.seat_2{
+	margin: 2% auto auto 10%;
+    width: 1em; 
+}
+.seat_3{
+	margin: 2% auto auto 10%;
+    width: 1em; 
+}
+.seat_4{
+	margin: auto;
+    width: 1em; 
+}
+.seat_5{
+	float: right;
+	margin-right: 15%;
+	margin-top: -16%;
+    width: 1em; 
+}
+.seat_6{
+	float: right;
+	margin-right: 15%;
+	margin-top: -26%;
+    width: 1em; 
+}
+.seat_7{
+	float: right;
+	margin-right: 15%;
+	margin-top: -36%;
+    width: 1em; 
+}
+.btn {
+	margin: 0 auto;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ffc105;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #FCA00A;
+  text-decoration: none;
+}
