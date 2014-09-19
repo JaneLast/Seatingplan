@@ -16,6 +16,7 @@
 	
 	for($i= 0 ; $i <= 6 ; $i++) {
 	    $real_val = $i + 1;
+		// Add containers, if 1-3 put in left, 4 bottom 5-7 right
 	    print '<div class="seat_'. $real_val .'">'. $seats[$i] .'</div>';
 	}
 	
