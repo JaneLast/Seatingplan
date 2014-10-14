@@ -28,20 +28,20 @@ This version was made to test myself and see if I could apply the knowledge I ha
 
 #### To run
 
-This project uses IO so you will need to install the Rubygems for it or run bundler from your cmdline:
-```Powershell
+This project uses highline/import so you will need to install the Rubygems for it or run bundler from your cmdline:
+```
 bundle install
 ``` 
 
 Then from your cmdline run the rubyfile from inside the correct folder with
-```Powershell
+```
 ruby ./filename
 ```
 #### How to set names
 
 Go into names.yml and add peoples names. Just follow the format that is already in. A new name has to be on a new line and prefixed with a - Keep the indentation correct.
-```YAML
-:people:
-  - :fname: Name1
-  - :fname: Name2
+```
+
+  - Name1
+  - Name2
 ```
