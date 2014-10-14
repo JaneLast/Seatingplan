@@ -35,7 +35,7 @@ bundle install
 
 Then from your cmdline run the rubyfile from inside the correct folder with
 ```
-ruby ./filename
+ruby ./seatingplan.rb
 ```
 
 In the cmdline you will now get 3 options. To open the names file, Randomize the names or to exit. Press the number associated with the option wanted.
