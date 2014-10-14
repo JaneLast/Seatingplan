@@ -2,16 +2,18 @@ require 'yaml'
 require 'highline/import'
 require 'pry'
 require 'io/console'
+
 def multiline
   puts " "
   puts " "
 end
+
 loop do
   choose do |menu|
 
-  menu.shell  = true
- menu.prompt = "\nPlease choose an option by typing in the number"
-  
+    menu.shell  = true
+    menu.prompt = "\nPlease choose an option by typing in the number"
+    
     menu.choice("Open the names file") do
      puts "\nOpening the file......" 
      `start names.yml`
