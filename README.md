@@ -48,7 +48,8 @@ In the cmdline you will now get 3 options. To open the names file, Randomize the
 
 #### How to set names
 
-Go into names.yml and add peoples names. Just follow the format that is already in. A new name has to be on a new line and prefixed with a - Keep the indentation correct.
+Use the program to open the file or navigate to names.yml and open. To add peoples names just follow the format that is already there. A new name has to be on a new line and prefixed with a - Keep the indentation correct.
+For example
 ```
 
   - Name1
