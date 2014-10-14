@@ -40,3 +40,8 @@ ruby ./filename
 #### How to set names
 
 Go into names.yml and add peoples names. Just follow the format that is already in. A new name has to be on a new line and prefixed with a - Keep the indentation correct.
+```yaml
+:people:
+  - :fname: Name1
+  - :fname: Name2
+```
