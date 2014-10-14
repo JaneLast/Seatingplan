@@ -28,7 +28,7 @@ This version was made to test myself and see if I could apply the knowledge I ha
 
 #### To run
 
-This project uses highline/import so you will need to install the Rubygems for it or run bundler from your cmdline:
+This project uses highline/import and io so you will need to install the Rubygems for it or run bundler from your cmdline:
 ```
 bundle install
 ``` 
@@ -37,6 +37,15 @@ Then from your cmdline run the rubyfile from inside the correct folder with
 ```
 ruby ./filename
 ```
+
+In the cmdline you will now get 3 options. To open the names file, Randomize the names or to exit. Press the number associated with the option wanted.
+
+1. Open file - This uses a system command to open a file
+
+2. Randomize seating plan - This reads in a yml file and uses the shuffle method to randomize the names.
+
+3. Exit - This exits the program
+
 #### How to set names
 
 Go into names.yml and add peoples names. Just follow the format that is already in. A new name has to be on a new line and prefixed with a - Keep the indentation correct.
